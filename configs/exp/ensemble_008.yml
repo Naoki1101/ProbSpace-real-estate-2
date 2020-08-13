@@ -1,0 +1,35 @@
+common:
+    seed: &seed 2020
+    target: y
+    metrics:
+        name: rmsle
+        params: {}
+    drop:
+    kaggle:
+        submit: False
+
+
+
+models:
+    model1:
+        name: lgbm_018_20200810224449_0.263
+    model2:
+        name: lgbm_019_20200810225304_0.262
+    model3:
+        name: lgbm_020_20200810225715_0.263
+    model4:
+        name: lgbm_021_20200810230056_0.262
+    model5: 
+        name: lgbm_022_20200810230351_0.262
+    model6:
+        name: lgbm_023_20200810230656_0.262
+    model7:
+        name: lgbm_024_20200810231022_0.262
+    model8:
+        name: lgbm_025_20200810231336_0.263
+    model9:
+        name: lgbm_026_20200810231643_0.262
+    model10:
+        name: lgbm_027_20200810231954_0.262
+    model11:
+        name: catboost_009_20200810234629_0.262

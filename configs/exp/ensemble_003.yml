@@ -1,0 +1,17 @@
+common:
+    seed: &seed 2020
+    target: y
+    metrics:
+        name: rmsle
+        params: {}
+    drop:
+    kaggle:
+        submit: False
+
+
+
+models:
+    model1:
+        name: lgbm_007_20200809224551_0.272
+    model2:
+        name: catboost_003_20200809230201_0.272
